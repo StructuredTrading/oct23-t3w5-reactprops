@@ -28,6 +28,15 @@ export default function MovieList(){
 	<section>
 		{favouriteMovies.map((movie, index) => {
 
+            // if (movie && movie === 0) {
+
+            // }
+
+            // if (movie.length !== 0) {
+            //     return <MovieCard key={movie + "-" + index} movieName={movie} />;
+            // }
+
+
             if (movie.length === 0){
                 return null;
             }
